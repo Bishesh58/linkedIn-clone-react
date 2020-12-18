@@ -3,14 +3,16 @@ import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
 import './App.css';
 import Header from './Components/Header';
+import Sidebar from './Components/Sidebar';
 
 function App() {
   return (
     <div className="app">
-      {/* header */}
       <Header/>
       
-      {/* App Body */}
+      <div className="app__body">
+        <Sidebar />
+      </div>
         {/* Sidebar */}
         {/* Feed */}
         {/* Widgets */}
