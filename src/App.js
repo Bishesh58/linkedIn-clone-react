@@ -4,6 +4,7 @@ import { Counter } from './features/counter/Counter';
 import './App.css';
 import Header from './Components/Header';
 import Sidebar from './Components/Sidebar';
+import Feed from './Components/Feed';
 
 function App() {
   return (
@@ -12,10 +13,9 @@ function App() {
       
       <div className="app__body">
         <Sidebar />
+        <Feed />
+        
       </div>
-        {/* Sidebar */}
-        {/* Feed */}
-        {/* Widgets */}
     </div>
   );
 }
