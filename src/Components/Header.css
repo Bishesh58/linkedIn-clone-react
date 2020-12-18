@@ -1,7 +1,13 @@
 .header{
-    /* stickly to stick header on top */
-    position: sticky;
     display: flex;
+    justify-content: space-evenly;
+    border-bottom: 0.1px solid lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
 .header__left{
@@ -29,4 +35,8 @@
     outline: none;
     border: none;
     background:  none;
+}
+
+.header__right{
+    display: flex;
 }
